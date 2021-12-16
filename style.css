@@ -1,0 +1,51 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+html, body {
+    width: 100%;
+    height: 100%;
+}
+
+body {
+    background-color: black;
+}
+
+.container {
+    background-color: gray;
+    width: 100%;
+    height: 50px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;  
+}
+
+h1 {
+    color: yellow;
+    margin-left: 10px;
+}
+
+.menu {
+    background-color: yellow;
+    width: 350px;
+    height: 50px;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    font-weight: bold;
+    font-size: 25px;
+}
+
+img {
+    margin-top: 3%;
+    margin-left: 20.5%;
+}
+
+.logo:hover {
+    font-size: 35px;
+}
+
+.primeiro:hover, .segundo:hover, .terceiro:hover {
+    color: white;
+}
