@@ -12,10 +12,10 @@ body {
     background-color: black;
 }
 
-.container {
+header {
     background-color: gray;
     width: 100%;
-    height: 50px;
+    height: 60px;
     display: flex;
     justify-content: space-between;
     align-items: center;  
@@ -28,8 +28,8 @@ h1 {
 
 .menu {
     background-color: yellow;
-    width: 350px;
-    height: 50px;
+    width: 450px;
+    height: 60px;
     display: flex;
     justify-content: space-around;
     align-items: center;
@@ -37,9 +37,19 @@ h1 {
     font-size: 25px;
 }
 
-img {
-    margin-top: 3%;
-    margin-left: 20.5%;
+.imagens {
+    display: flex;
+    justify-content: space-around;
+    margin-top: 30px;
+}
+
+.imagens img {
+    display: flex;
+    width: 300px;
+    height: 400px;
+    object-fit: cover;
+    margin-bottom: 30px;
+    border: solid yellow;
 }
 
 .logo:hover {
@@ -48,4 +58,20 @@ img {
 
 .primeiro:hover, .segundo:hover, .terceiro:hover {
     color: white;
+}
+
+@media (max-width: 700px) {
+    .logo {
+        display: none;
+    }
+    .menu {
+        height: 120%;
+        width: 100%;
+    }
+    .coluna {
+        margin-left: 90px;
+    }
+    .imagens {
+        flex-direction: column;
+    }
 }
