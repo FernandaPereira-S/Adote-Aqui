@@ -78,11 +78,13 @@ footer {
         height: 100px;
         width: 100%;
     }
-    .coluna {
-        display: flex;
-        justify-content: center;
-    }
     .imagens {
+        display: flex;
+        align-items: center;
         flex-direction: column;
+    }
+    .imagens img {
+        width: 200px;
+        height: 300px;
     }
 }
