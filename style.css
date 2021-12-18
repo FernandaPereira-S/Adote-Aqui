@@ -79,7 +79,8 @@ footer {
         width: 100%;
     }
     .coluna {
-        margin-left: 90px;
+        display: flex;
+        justify-content: center;
     }
     .imagens {
         flex-direction: column;
