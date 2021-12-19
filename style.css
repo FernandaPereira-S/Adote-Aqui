@@ -26,7 +26,7 @@ h1 {
     margin-left: 10px;
 }
 
-.menu {
+nav {
     background-color: yellow;
     width: 450px;
     height: 60px;
@@ -37,13 +37,13 @@ h1 {
     font-size: 25px;
 }
 
-.imagens {
+main {
     display: flex;
     justify-content: space-around;
     margin-top: 30px;
 }
 
-.imagens img {
+main img {
     display: flex;
     width: 300px;
     height: 400px;
@@ -74,16 +74,16 @@ footer {
     .logo {
         display: none;
     }
-    .menu {
+    nav {
         height: 100px;
         width: 100%;
     }
-    .imagens {
+    main {
         display: flex;
         align-items: center;
         flex-direction: column;
     }
-    .imagens img {
+    main img {
         width: 200px;
         height: 300px;
     }
